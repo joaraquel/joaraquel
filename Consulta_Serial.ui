@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1459</width>
+    <height>856</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema Patrimonio - Consulta por Serial</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../GUI/assets/hidroven-2.jpg</normaloff>../GUI/assets/hidroven-2.jpg</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>MS Gothic</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Consulta por Serial</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="input">
+       <property name="contextMenuPolicy">
+        <enum>Qt::ActionsContextMenu</enum>
+       </property>
+       <property name="accessibleDescription">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Escribir Serial</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="boton">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Buscar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="2">
+      <widget class="QTableWidget" name="tabla">
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

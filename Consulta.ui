@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema Patrimonio - Consulta Dependencia</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../GUI/assets/hidroven-2.jpg</normaloff>../GUI/assets/hidroven-2.jpg</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QPushButton" name="boton">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Buscar</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QComboBox" name="opcion">
+         <item>
+          <property name="text">
+           <string>PRESIDENCIA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GRAL.DE TALENTO HUMANO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE ADMINISTRACION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>LICITACIONES Y CONTRATACIONES</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VICEPRESIDENCIA DE GESTION ADMINISTRATIVA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE PROTECCION AL PATRIMONIO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE TRATAMIENTO, OPERACIONES Y MANTENIMIENTO</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE IMAGEN Y COMUNICACIÓN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE PLANIFICACION Y ORGANIZACIÓN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CONSULTORIA JURIDICA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GRAL. DE SEGUIMIENTO Y POLITICAS PUBLICAS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE SEGUIMIENTO Y POLITICAS PUBLICAS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AUDITORIA INTERNA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VICEPRESIDENCIA DE SERVICIOS HIDROLOGICOS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE PROYECTOS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GERAL.PARA EL FORTALECIMIENTO DEL PODER POPULAR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE SEGURIDAD INTEGRAL</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE TECNOLOGIA DE LA INFORMACION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>GERENCIA GENERAL DE COMERCIALIZACION</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>MS Gothic</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Consultas</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QTableWidget" name="tabla">
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Header</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
